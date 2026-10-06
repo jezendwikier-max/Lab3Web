@@ -1,0 +1,74 @@
+/* Mengubah tampilan Navigasi */
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px; /* Menambahkan sudut melengkung */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block; /* Memastikan padding bekerja optimal */
+    transition: background-color 0.3s ease; /* Menambahkan efek transisi halus */
+}
+
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+    border-radius: 4px;
+}
+
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 10px; /* Sudut melengkung pada kontainer intro */
+}
+
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+    letter-spacing: 1.5px; /* Menambah jarak antar huruf */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+}
+
+/* Class Selector */
+.button {
+    padding: 12px 24px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px; /* Menambah border-radius */
+    font-weight: bold; /* Menebalkan teks tombol */
+}
+
+.btn-primary {
+    background: #E42A42;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background: #b51f33; /* Warna saat tombol di-hover */
+}
+
+/* Aturan dengan ID Selector */
+#paragraf-1 {
+    color: #20A759; /* Warna HIJAU */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Aturan dengan Class Selector */
+.textparagraf {
+    color: #E42A42; /* Warna MERAH */
+    font-size: 14px;
+    font-weight: normal;
+}
